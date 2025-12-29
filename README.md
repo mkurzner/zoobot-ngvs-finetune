@@ -2,7 +2,7 @@
 
 This repository contains  curated examplse of fine-tuning a pretrained ZooBot CNN on galaxy cutouts from the Next Generation Virgo Cluster Survey (NGVS), generating predictions, and inspecting model failure cases with goal of offering interpretaibltiy and high resolution learned morphologies for use with current and upcoming large galaxy surveys.
 
-## What is including
+## What is included
 - Building a ZooBot-compatible `catalog` (`id_str`, `file_loc`, label columns)
 - Fine-tuning a pretrained CNN under domain shift and heterogeneous image quality
 - Saving predictions for reproducible downstream analysis
