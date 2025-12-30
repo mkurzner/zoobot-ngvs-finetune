@@ -13,8 +13,8 @@ This repository contains  curated examplse of fine-tuning a pretrained ZooBot CN
 - `outputs/figures/` — curated qualitative inspection figures
 - `outputs/tables/` — prediction CSVs and optional summary metrics
 
-## Running the notebook
-1. Create an environment with PyTorch + ZooBot dependencies.
+## How I ran this notebook
+1. Created an environment with PyTorch + ZooBot dependencies.
 2. In the notebook, set:
    - `DATA_DIR` (image directory)
    - `CATALOG_CSV` (metadata + labels)
@@ -25,5 +25,5 @@ This repository contains  curated examplse of fine-tuning a pretrained ZooBot CN
    - `outputs/run_001/figures/bottom_confidence.png`
 
 ## Notes
-- Image data are not included in this repository.
+- Image data are not included in this repository. 
 - This is research code intended to highlight transparent evaluation and failure analysis rather than production deployment.
